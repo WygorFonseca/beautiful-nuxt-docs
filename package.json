@@ -11,6 +11,8 @@
     "@headlessui/vue": "^1.7.19",
     "@nuxt/content": "^2.12.1",
     "@nuxtjs/color-mode": "^3.3.3",
+    "@vue-hero-icons/outline": "^1.7.2",
+    "@vue-hero-icons/solid": "^1.7.2",
     "nuxt": "^3.11.0"
   },
   "devDependencies": {
