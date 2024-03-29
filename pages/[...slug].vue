@@ -1,11 +1,11 @@
 <template>
-  <FincoNavbar />
+  <BeautifulNavbar />
   <main class="min-h-[calc(100vh-var(4rem))]">
     <main class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
         <div class="lg:col-span-2">
           <aside
-            class="hidden overflow-y-auto lg:block lg:max-h-[calc(100vh-var(40px))] lg:sticky lg:top-[40px] py-8 lg:px-4 lg:-mx-4"
+            class="hidden overflow-y-auto lg:block lg:max-h-[calc(100vh-var(--header-height))] lg:sticky lg:top-[--header-height] py-8 lg:px-4 lg:-mx-4"
           >
             <nav clas="space-y-3">
               <ContentNavigation v-slot="{ navigation }">
