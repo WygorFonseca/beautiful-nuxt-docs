@@ -1,11 +1,27 @@
 {
+  "name": "beautiful-nuxt-docs",
+  "description": "Beautiful nuxt content themed with tailwind to build awesome documentation pages or SaaS using markdown, or normal vue templates with nuxt 3",
   "private": true,
   "type": "module",
+  "version": "0.0.1",
+  "homepage": "https://github.com/WygorFonseca/beautiful-nuxt-docs#readme",
+  "license": "MIT",
+  "keywords": [
+    "nuxt content",
+    "nuxt 3",
+    "nuxt 3 documentation theme",
+    "documentation page",
+    "markdown docs",
+    "markdown documentation",
+    "beautiful markdown documentation"
+  ],
+  "author": "Wygor Fonseca <contato@wygor.dev.br> (https://www.linkedin.com/in/wygor-fonseca-2a6bb6170/)",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prepare": "husky"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.19",
