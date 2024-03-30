@@ -1,47 +1,125 @@
 <template>
   <BeautifulNavbar></BeautifulNavbar>
-  <header class="px-4 sm:px-0 py-8 sm:py-16 lg:py-24">
+  <section>
+    <div class="py-12 sm:py-32 md:py-40 relative">
+      <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 flex flex-col">
+        <div class="text-center">
+          <h1 class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-7xl">
+            API com dados de ações da B3
+          </h1>
+          <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">
+            Desenvolvido de desenvolvedor para desenvolvedores, dados atualizados e consistentes
+          </p>
+          <div class="my-10 flex gap-2 items-center justify-center flex-wrap">
+            <BeautifulBadge>Ações</BeautifulBadge>
+            <BeautifulBadge>FIIs</BeautifulBadge>
+            <BeautifulBadge>ETFs</BeautifulBadge>
+            <BeautifulBadge>BDRs</BeautifulBadge>
+            <BeautifulBadge>Dividendos históricos</BeautifulBadge>
+            <BeautifulBadge>Eventos corporativos</BeautifulBadge>
+            <BeautifulBadge>Proventos atualizados em até 30 minutos</BeautifulBadge>
+            <BeautifulBadge>Cotações</BeautifulBadge>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
+            <a
+              class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-gray-900 hover:bg-gray-800 disabled:bg-gray-900 dark:bg-white dark:hover:bg-gray-100 dark:disabled:bg-white focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"
+              href="/signup"
+            >
+              <span class="">Entre em contato</span>
+              <ChatBubbleOvalLeftIcon class="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="absolute inset-0 landing-grid z-[-1] [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+        ></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-4 sm:px-0">
+    <div class="text-center flex flex-col items-center">
+      <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
+        Por que escolher a gente?
+      </h1>
+      <p class="mt-4 text-md sm:text-lg text-gray-500 dark:text-gray-400">
+        Desenvolvemos as APIs com o que há de mais recente em termos de tecnologia e busca de dados no mercado.
+      </p>
+      <p class="mt-4 text-md sm:text-lg text-gray-500 dark:text-gray-400">
+        Além disso, estamos trabalhando para aprimorar nossos serviços com o uso de Integência Artificial e você poderá
+        ter acesso a recursos exclusivos em breve!
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 mt-10 md:mt-16 gap-10 md:gap-16 max-w-screen-lg mx-auto">
+      <!--[-->
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
+          <ArchiveBoxIcon class="w-4 h-4 text-black" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">SDK para JavaScript</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">
+            Construa sua aplicação instalando nossa SDK via npm com os tipos já definidos e ganhe tempo.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
+          <RocketLaunchIcon class="w-4 h-4 text-black" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Eventos corporativos em primeira mão</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">
+            Atualizamos as informações de proventos em menos de 15 minutos após a divulgação. Concorrentes levam dias
+            para atualizar.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
+          <ClockIcon class="w-4 h-4 text-black" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Histórico completo de proventos</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">
+            Tenha acesso aos proventos divulgados pelas empresas desde a abertura de capital.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
+          <CalendarDaysIcon class="w-4 h-4 text-black" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Teste grátis</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">
+            Você pode fazer um teste limitado sem precisar de um cartão de crédito, ou pedir reembolso em até 7 dias
+            após a primeira compra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header class="mt-8 sm:mt-0 px-4 sm:px-0 py-8 sm:py-16 lg:py-24">
     <div class="gap-8 sm:gap-y-16 flex flex-col">
       <div class="text-center flex flex-col items-center">
         <!---->
         <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
-          Um plano para tudo que precisar com dados da B3
+          Um plano para tudo que precisar
         </h1>
         <p class="mt-4 text-md sm:text-lg text-gray-500 dark:text-gray-400">
           Nossos planos são projetados para atender às necessidades de desenvolvedores individuais, pequenas e grandes
           empresas. <strong>Obtenha o plano certo que combina com você.</strong>
         </p>
-        <div class="mt-8 flex flex-wrap gap-x-3 gap-y-1.5 justify-center">
-          <!----><button
-            aria-label="pricing toggle"
-            class="ring-1 ring-gray-300 dark:ring-gray-700 flex items-center relative h-8 flex-shrink-0 cursor-pointer rounded-full p-1 focus:outline-none w-48"
-            id="headlessui-switch-n8XSa7iqml4_0"
-            role="switch"
-            type="button"
-            tabindex="0"
-            aria-checked="false"
-            data-headlessui-state=""
-          >
-            <span
-              aria-hidden="true"
-              class="absolute inset-y-0 w-1/2 flex items-center justify-center pointer-events-none z-[1] transition-colors duration-200 select-none text-xs font-semibold flex-shrink-0 left-0 text-white dark:text-gray-900"
-              >Mensal<br /></span
-            ><span
-              aria-hidden="true"
-              class="absolute inset-y-0 w-1/2 flex items-center justify-center pointer-events-none z-[1] transition-colors duration-200 select-none text-xs font-semibold flex-shrink-0 right-0 text-gray-500 dark:text-gray-400"
-              >Anual</span
-            ><span
-              aria-hidden="true"
-              class="translate-x-0 w-1/2 text-white dark:text-gray-900 pointer-events-none inline-block h-6 transform rounded-full bg-gray-900 dark:bg-white shadow transition duration-200 ease-in-out z-0 relative"
-            ></span>
-          </button>
-        </div>
       </div>
       <!---->
     </div>
   </header>
 
-  <section class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <section class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pb-24">
     <div class="flex flex-col lg:grid lg:grid-cols-3 w-full justify-center items-center gap-8">
       <div
         class="rounded-xl divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow bg-white dark:bg-gray-900 relative flex flex-col self-stretch w-full"
@@ -60,7 +138,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 14.90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 14, 90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -122,7 +200,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 39.90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 39, 90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -195,7 +273,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 29.90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 29, 90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -246,5 +324,16 @@
 </template>
 
 <script setup lang="ts">
-import { CheckCircleIcon } from "@heroicons/vue/20/solid";
+import {
+  ClockIcon,
+  RocketLaunchIcon,
+  ArchiveBoxIcon,
+  CheckCircleIcon,
+  ChatBubbleOvalLeftIcon,
+  CalendarDaysIcon,
+} from "@heroicons/vue/20/solid";
+
+// definePageMeta({
+//   layout: "landing",
+// });
 </script>
