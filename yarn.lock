@@ -1409,6 +1409,11 @@
   resolved "https://registry.npmjs.org/@shikijs/core/-/core-1.2.1.tgz"
   integrity sha512-KaIS0H4EQ3KI2d++TjYqRNgwp8E3M/68e9veR4QtInzA7kKFgcjeiJqb80fuXW+blDy5fmd11PN9g9soz/3ANQ==
 
+"@shikijs/core@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.2.2.tgz#9993d6e73077f8246164546d2f78b949cae23b64"
+  integrity sha512-GXbTyNP6HlxpyWMR4eirW54Cxp84nVuivcV5hGVBgKnIl+UmD4AJgCX1uXuNRcFFAw58lB3HqryuezIc0iCLgw==
+
 "@shikijs/transformers@^1.1.7":
   version "1.2.1"
   resolved "https://registry.npmjs.org/@shikijs/transformers/-/transformers-1.2.1.tgz"
@@ -6637,6 +6642,13 @@ shiki@1.2.1, shiki@^1.1.7:
   integrity sha512-u+XW6o0vCkUNlneZb914dLO+AayEIwK5tI62WeS//R5HIXBFiYaj/Hc5xcq27Yh83Grr4JbNtUBV8W6zyK4hWg==
   dependencies:
     "@shikijs/core" "1.2.1"
+
+shiki@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.2.2.tgz#b43632ad6f444da5501cebf804b34c20aa98b40a"
+  integrity sha512-nqazfFgrU+DBLqk4+WjmGQz8sVWkcUcGriHqSM2zGk0GhjirVz4FyJ3AABEx91OpjGiKpuKBg2diYfRfQG3Fbg==
+  dependencies:
+    "@shikijs/core" "1.2.2"
 
 signal-exit@^3.0.0, signal-exit@^3.0.7:
   version "3.0.7"
