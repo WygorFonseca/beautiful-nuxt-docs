@@ -15,7 +15,9 @@
                       <DisclosureButton
                         class="flex items-center gap-1.5 group w-full focus-visible:outline-primary border-transparent"
                       >
-                        <span class="text-sm/6 font-semibold truncate"> {{ link.title }}</span>
+                        <span class="text-sm/6 font-semibold truncate dark:text-slate-50">
+                          {{ link.title }}
+                        </span>
                         <ChevronRightIcon
                           :class="open ? 'rotate-90 transform' : ''"
                           class="w-5 h-5 ms-auto transform transition-transform duration-200 flex-shrink-0 mr-1.5 text-gray-700 dark:text-gray-200"
@@ -23,7 +25,9 @@
                       </DisclosureButton>
 
                       <DisclosurePanel class="text-sm text-inherit dark:text-inherit">
-                        <nav class="space-y-3 border-l border-gray-200 dark:border-gray-800 ml-2.5">
+                        <nav
+                          class="space-y-3 border-l dark:data-[is-active='true']:border-purple-300 border-gray-200 dark:border-gray-800 ml-2.5"
+                        >
                           <div class="space-y-1.5">
                             <ContentList :path="link._path" v-slot="{ list }">
                               <NuxtLink
