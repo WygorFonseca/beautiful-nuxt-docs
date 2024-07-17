@@ -23,6 +23,8 @@
           </div>
           <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
             <a
+              href="https://wa.me/+5516993243843?text=Olá! Eu gostaria de saber mais sobre os planos para desenvolvedor da FINCO!"
+              target="_blank"
               class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-gray-900 hover:bg-gray-800 disabled:bg-gray-900 dark:bg-white dark:hover:bg-gray-100 dark:disabled:bg-white focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"
             >
               <span class="">Entre em contato</span>
@@ -190,12 +192,14 @@
               </li>
             </ul>
           </div>
-          <button
+          <a
+            href="https://wa.me/+5516993243843?text=Olá! Eu gostaria de saber mais sobre os planos para desenvolvedor da FINCO!"
+            target="_blank"
             type="button"
             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-sm gap-x-2.5 px-3.5 py-2.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-900 dark:text-white bg-white hover:bg-gray-50 disabled:bg-white dark:bg-gray-900 dark:hover:bg-gray-800/50 dark:disabled:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 w-full flex justify-center items-center"
           >
             <span class="">Escolher</span>
-          </button>
+          </a>
         </div>
         <!---->
       </div>
@@ -279,12 +283,13 @@
             </ul>
           </div>
           <div class="">
-            <!----><button
-              type="button"
+            <!----><a
+              href="https://wa.me/+5516993243843?text=Olá! Eu gostaria de saber mais sobre os planos para desenvolvedor da FINCO!"
+              target="_blank"
               class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-sm gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-gray-900 hover:bg-gray-800 disabled:bg-gray-900 dark:bg-white dark:hover:bg-gray-100 dark:disabled:bg-white focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 w-full flex justify-center items-center"
             >
               <!----><span class="">Escolher</span
-              ><!----></button
+              ><!----></a
             ><!---->
           </div>
         </div>
@@ -342,12 +347,13 @@
               </li>
             </ul>
           </div>
-          <button
-            type="button"
+          <a
+            href="https://wa.me/+5516993243843?text=Olá! Eu gostaria de saber mais sobre os planos para desenvolvedor da FINCO!"
+            target="_blank"
             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-sm gap-x-2.5 px-3.5 py-2.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-900 dark:text-white bg-white hover:bg-gray-50 disabled:bg-white dark:bg-gray-900 dark:hover:bg-gray-800/50 dark:disabled:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 w-full flex justify-center items-center"
           >
             <span class="">Escolher</span>
-          </button>
+          </a>
         </div>
         <!---->
       </div>
