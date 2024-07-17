@@ -8,7 +8,7 @@
             API com dados de ações da B3
           </h1>
           <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">
-            Desenvolvido de desenvolvedor para desenvolvedores, dados atualizados e consistentes
+            De desenvolvedor para desenvolvedores. Com dados atualizados e consistentes
           </p>
           <div class="my-10 flex gap-2 items-center justify-center flex-wrap">
             <BeautifulBadge>Ações</BeautifulBadge>
@@ -19,6 +19,7 @@
             <BeautifulBadge>Eventos corporativos</BeautifulBadge>
             <BeautifulBadge>Proventos atualizados em até 30 minutos</BeautifulBadge>
             <BeautifulBadge>Cotações</BeautifulBadge>
+            <BeautifulBadge>Tesouro Nacional</BeautifulBadge>
           </div>
           <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
             <a
@@ -46,13 +47,25 @@
         Desenvolvemos as APIs com o que há de mais recente em termos de tecnologia e busca de dados no mercado.
       </p>
       <p class="mt-4 text-md sm:text-lg text-gray-500 dark:text-gray-400">
-        Além disso, estamos trabalhando para aprimorar nossos serviços com o uso de Integência Artificial e você poderá
-        ter acesso a recursos exclusivos em breve!
+        Além disso, estamos trabalhando para aprimorar nossos serviços com o uso de Integência Artificial, você poderá
+        ter acesso à recursos exclusivos em breve!
       </p>
     </div>
 
     <div class="grid sm:grid-cols-2 mt-10 md:mt-16 gap-10 md:gap-16 max-w-screen-lg mx-auto">
       <!--[-->
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
+          <LightBulbIcon class="w-4 h-4 text-black" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Relatórios com AI</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">
+            Usamos inteligência artificial para consolidar informações e resumir eventos importantes. Isso facilita a
+            interpretação e a gestão para investidores que possuem muitos ativos.
+          </p>
+        </div>
+      </div>
       <div class="flex gap-4 items-start">
         <div class="mt-1 bg-cyan-300 rounded-full p-2 w-8 h-8 shrink-0">
           <ArchiveBoxIcon class="w-4 h-4 text-black" />
@@ -137,7 +150,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 14, 90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 14,90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -199,7 +212,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 39, 90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 39,90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -272,7 +285,7 @@
           </div>
           <div class="flex flex-row items-baseline gap-x-1">
             <!---->
-            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 29, 90</p>
+            <p class="text-gray-900 dark:text-white text-2xl sm:text-4xl font-semibold">R$ 29,90</p>
             <p class="text-gray-500 dark:text-gray-400 text-sm/6 font-medium truncate">/mês</p>
           </div>
           <div class="order-last flex-1">
@@ -330,6 +343,7 @@ import {
   CheckCircleIcon,
   ChatBubbleOvalLeftIcon,
   CalendarDaysIcon,
+  LightBulbIcon,
 } from "@heroicons/vue/20/solid";
 
 // definePageMeta({
