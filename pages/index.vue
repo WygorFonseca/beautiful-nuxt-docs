@@ -50,6 +50,10 @@
         Além disso, estamos trabalhando para aprimorar nossos serviços com o uso de Integência Artificial, você poderá
         ter acesso à recursos exclusivos em breve!
       </p>
+      <p class="mt-4 text-md sm:text-lg text-gray-500 dark:text-gray-400">
+        Obtemos dados diretamente de fontes oficiais, por isso a atualização dos dados é mais rápida quando comparado
+        aos concorrentes.
+      </p>
     </div>
 
     <div class="grid sm:grid-cols-2 mt-10 md:mt-16 gap-10 md:gap-16 max-w-screen-lg mx-auto">
@@ -242,6 +246,22 @@
                     >Dividendos atualizados em até 30min</span
                   ></span
                 >
+              </li>
+              <li class="flex items-center gap-x-3 min-w-0">
+                <CheckCircleIcon class="w-5 h-5 flex-shrink-0 text-primary"></CheckCircleIcon
+                ><span class="text-gray-600 dark:text-gray-400 truncate">Relatórios simplificados com AI</span>
+              </li>
+              <li class="flex items-center gap-x-3 min-w-0">
+                <CheckCircleIcon class="w-5 h-5 flex-shrink-0 text-primary"></CheckCircleIcon
+                ><span class="text-gray-600 dark:text-gray-400 truncate">Websocket para cotações em tempo real</span>
+              </li>
+              <li class="flex items-center gap-x-3 min-w-0">
+                <CheckCircleIcon class="w-5 h-5 flex-shrink-0 text-primary"></CheckCircleIcon
+                ><span class="text-gray-600 dark:text-gray-400 truncate">Balanços trimestrais e anuais </span>
+              </li>
+              <li class="flex items-center gap-x-3 min-w-0">
+                <CheckCircleIcon class="w-5 h-5 flex-shrink-0 text-primary"></CheckCircleIcon
+                ><span class="text-gray-600 dark:text-gray-400 truncate">DRE Contábil das empresas</span>
               </li>
               <li class="flex items-center gap-x-3 min-w-0">
                 <CheckCircleIcon class="w-5 h-5 flex-shrink-0 text-primary"></CheckCircleIcon
